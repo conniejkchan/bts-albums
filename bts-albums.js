@@ -36,8 +36,18 @@ function drawPlane() {
     context.lineTo(140, 125);
     context.lineTo(170, 225);
     context.lineTo(330, 200);
-    context.ellipse(200, 200, 50, 50, 0, 0, 2 * Math.PI, false);
-    //context.closePath();
+    //context.ellipse(200, 200, 50, 50, 0, 0, 2 * Math.PI, false);
+    context.lineTo(370, 220);
+    context.lineTo(330, 250);
+    context.lineTo(250, 270);
+    context.lineTo(260, 240);
+    context.lineTo(240, 300);
+    context.lineTo(210, 305);
+    context.lineTo(220, 240);
+    context.lineTo(215, 270);
+    context.lineTo(105, 280);
+    context.lineTo(100, 280);
+    context.closePath();
     context.stroke();
     //context.fill();
 
