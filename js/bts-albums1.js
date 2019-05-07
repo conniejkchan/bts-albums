@@ -1,4 +1,4 @@
-const c1 = document.getElementById('c1');
+/*const c1 = document.getElementById('c1');
 const context = c1.getContext('2d'); 
 
 let width;
@@ -100,4 +100,6 @@ function airBalloon(){
 }
 
 setup2();
-airBalloon();
+airBalloon();*/
+/* Album 1: HYYH Young Forever*/
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Project</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Dosis');
+        #container {
+            width: 90%;
+            margin: auto;
+            font-family: 'Dosis', sans-serif;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        header {
+            color: #EF7C8E; 
+        }
+        a {
+            color: #B6E2D3;
+            padding: 5px;
+            text-decoration: none;
+        }
+        .album1{
+            background-color:#F7B543;
+            color:#74DED1;
+        }
+
+        .album2{
+            background-color:#8AD2C4;
+            color: #E6796D;
+        }
+
+        .album3{
+            background-color:#B1C2E6;
+            color: #F6AAC4;
+        }
+        #img1{
+            width: 300px;
+            height: 450px;
+            margin-top:20px;
+            display:none;
+            
+        }
+        #img2{
+            width: 300px;
+            height: 300px;
+            margin-top:20px;
+            display:none;
+      
+        }
+        #img3{
+            width: 300px;
+            height: 300px;
+            margin-top:20px;
+            display:none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Final Project: BTS Albums</h1>
+        </header>
+        <nav>
+            <a href="bts-albums1.html" id="album1">The Most Beautiful Moment in Life: Young Forever</a>
+            <a href="bts-album2.html" id="album2">You Never Walk Alone</a>
+            <a href="bts-albums3.html" id="album3">Love Yourself: Answer</a></li>  
+            <br>     
+            <img id="img1" src="image/bts-yf-cover.jpg">   
+            <img id="img2" src="image/bts-ynwa-cover.png">   
+            <img id="img3" src="image/bts-ly-cover.jpg">   
+        </nav>
+    </div>
+    <script>
+        //once link is hovered album cover appears, all albums should be same size
+        const album1 = document.getElementById("album1");
+        const album2 = document.getElementById("album2");
+        const album3 = document.getElementById("album3");
+
+        const img1 = document.getElementById("img1");
+        const img2 = document.getElementById("img2");
+        const img3 = document.getElementById("img3");
+        
+        album1.onmouseover = function() {
+            album1.classList.add("album1");
+            img1.style.display= "inline-block";
+
+        };
+        album1.onmouseout = function() {
+            album1.classList.remove("album1");
+            img1.style.display= "none";
+
+        };
+
+        album2.onmouseover = function() {
+            album2.classList.add("album2");
+            img2.style.display= "inline-block";
+
+        };
+        album2.onmouseout = function() {
+            album2.classList.remove("album2");
+            img2.style.display= "none";
+
+        };
+        album3.onmouseover = function() {
+            album3.classList.add("album3");
+            img3.style.display= "inline-block";
+
+        };
+        album3.onmouseout = function() {
+            album3.classList.remove("album3");
+            img3.style.display= "none";
+
+        };
+
+    </script>
+</body>
+</html>
