@@ -1,0 +1,19 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143.98 147.36">
+<defs>
+<style>
+    .cls-1{
+        fill:#F0DD7A;
+        stroke:#000;
+        stroke-miterlimit:10;
+        animation-name: color; 
+        animation-duration: 6s;
+    }
+    @keyframes color{
+        from {fill: #F0DD7A;}
+        to {fill: #E2BC50;}
+      }
+</style>
+</defs>
+<title>moon</title>
+<path class="cls-1" d="M220.86,171A78,78,0,1,1,117.49,58.64,78,78,0,0,0,220.86,171Z" transform="translate(-78.64 -57.01)"/>
+</svg>
