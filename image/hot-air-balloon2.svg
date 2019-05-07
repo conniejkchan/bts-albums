@@ -5,7 +5,7 @@
         fill: #A07D15;
         animation-name: color;
         animation-duration: 5s;
-          animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
     }
     @keyframes color{
          from {fill: #A07D15;}

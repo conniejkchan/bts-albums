@@ -1,5 +1,27 @@
 body {
-    background: url("../image/cloud-background.jpg") center;
+    /*background: url("../image/cloud-background.jpg") center;*/
+    background-color: #689FD2;
+}
+#cloud1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 10px;
+    left: 10px;
+    animation: move 5s infinite;
+}
+#cloud2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 200px;
+    left: 10px;
+    animation: move 5s infinite;
+}
+
+@keyframes move{
+     from {left:10px;}
+        to {left: 2000px;}
 }
 #airplane {
     position: absolute;
