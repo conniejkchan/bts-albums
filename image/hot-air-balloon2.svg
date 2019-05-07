@@ -1,0 +1,41 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136.91 243.48">
+<defs>
+<style>
+    .cls-1{
+        fill: #A07D15;
+        animation-name: color;
+        animation-duration: 5s;
+          animation-iteration-count: infinite;
+    }
+    @keyframes color{
+         from {fill: #A07D15;}
+            to {fill: #253686;}
+    }
+    .cls-1,.cls-2{
+        stroke:#000;
+        stroke-miterlimit:10;
+    }
+    .cls-2{
+        fill:none;
+    }
+    </style>
+</defs>
+<title>hot-air-ballon</title>
+<rect class="cls-1" x="39.14" y="189.94" width="56.09" height="53.04"/>
+<line class="cls-2" x1="67.19" y1="189.94" x2="67.19" y2="163.42"/>
+<line class="cls-2" x1="40.83" y1="163.42" x2="93.18" y2="163.42"/>
+<line class="cls-2" x1="40.83" y1="163.42" x2="30.28" y2="144.68"/>
+<line class="cls-2" x1="93.18" y1="163.42" x2="102.97" y2="144.68"/>
+<path class="cls-1" d="M88.86,138.11a72.19,72.19,0,0,1-6-10.52Z" transform="translate(-75.51 -23.33)"/>
+<path class="cls-1" d="M203.42,130.82A71.47,71.47,0,0,1,194.59,144Z" transform="translate(-75.51 -23.33)"/>
+<path class="cls-2" d="M206.41,145.62" transform="translate(-75.51 -23.33)"/>
+<line class="cls-2" x1="127.95" y1="107.44" x2="127.91" y2="107.49"/>
+<path class="cls-1" d="M211.92,95.92a75,75,0,0,1-8.5,34.9L194.59,144l-16.11,24H105.79l-16.93-29.9-6-10.52A75.27,75.27,0,0,1,76,95.92c0-39.81,30.43-72.09,68-72.09S211.92,56.11,211.92,95.92Z" transform="translate(-75.51 -23.33)"/>
+<line class="cls-2" x1="68.45" y1="0.5" x2="67" y2="144.68"/>
+<path class="cls-2" d="M124.9,26.71a231.62,231.62,0,0,0,0,141.3" transform="translate(-75.51 -23.33)"/>
+<path class="cls-2" d="M163,26.71a188.38,188.38,0,0,1,12.09,74.84A188.42,188.42,0,0,1,159.85,168" transform="translate(-75.51 -23.33)"/>
+<path class="cls-2" d="M98.26,42.57A170.55,170.55,0,0,0,105.79,168" transform="translate(-75.51 -23.33)"/>
+<path class="cls-2" d="M186.68,39.86a157,157,0,0,1,9.87,60.35A157.55,157.55,0,0,1,178.48,168" transform="translate(-75.51 -23.33)"/>
+<line class="cls-2" x1="40.83" y1="163.42" x2="50.03" y2="189.94"/>
+<line class="cls-2" x1="93.18" y1="163.42" x2="84.34" y2="189.94"/>
+</svg>
