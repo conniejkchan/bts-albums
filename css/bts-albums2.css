@@ -1,14 +1,7 @@
-#container {
-    position:fixed;
-    padding:0;
-    margin:0;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to bottom, #080b54, #004a8a, #00819f, #40b6a3, #b9e6b1);
-
+body {
+    background-image: url("../image/bts-springday.png");
 }
+
 .snowflake{
     display:inline-block;
     position: relative;
@@ -33,6 +26,6 @@
 }
 
 @keyframes grow{
-    from {top:200px;}
+    from {top:250px;}
        to {top: 0px;}
 }

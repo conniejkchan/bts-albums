@@ -1,6 +1,7 @@
 body {
-    background-color: #689FD2;
+    background-image: url("../image/bts-young-forever.png");
 }
+
 #cloud1 {
     position: absolute;
     width: 200px;
